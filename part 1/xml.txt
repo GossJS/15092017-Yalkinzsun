@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE table PUBLIC "Skorobogatov_Kirill" "https://kodaktor.ru/j/3b08e1e">
+<table>
+   <student name="Иванов">
+      <mark discipline="Multimedia">3</mark>
+      <mark discipline="Webdesign">3</mark>
+      <mark discipline="Graphik">5</mark>
+   </student>
+   <student name="Петров">
+      <mark discipline="Multimedia">3</mark>
+      <mark discipline="Webdesign">4</mark>
+      <mark discipline="Graphik">5</mark>
+      <mark discipline="Logik">5</mark>
+   </student>
+   <student name="Сидоренко">
+      <mark discipline="Multimedia">3</mark>
+      <mark discipline="Webdesign">4</mark>
+      <mark discipline="Graphik">5</mark>
+      <mark discipline="Logik">4</mark>
+   </student>
+</table>

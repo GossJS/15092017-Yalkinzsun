@@ -1,0 +1,65 @@
+{
+  "table": {
+    "student": [
+      {
+        "name": "Ivanov",
+        "mark": [
+          {
+            "discipline": "Multimedia",
+            "rating": "3"
+          },
+          {
+            "discipline": "Webdesign",
+            "rating": "3"
+          },
+          {
+            "discipline": "Graphik",
+            "rating": "5"
+          }
+        ]
+      },
+      {
+        "name": "Petrov",
+        "mark": [
+          {
+            "discipline": "Multimedia",
+            "rating": "3"
+          },
+          {
+            "discipline": "Webdesign",
+            "rating": "4"
+          },
+          {
+            "discipline": "Graphik",
+            "rating": "5"
+          },
+          {
+            "discipline": "Logik",
+            "rating": "5"
+          }
+        ]
+      },
+      {
+        "name": "Sidorenko",
+        "mark": [
+          {
+            "discipline": "Multimedia",
+            "rating": "3"
+          },
+          {
+            "discipline": "Webdesign",
+            "rating": "4"
+          },
+          {
+            "discipline": "Graphik",
+            "rating": "5"
+          },
+          {
+            "discipline": "Logik",
+            "rating": "4"
+          }
+        ]
+      }
+    ]
+  }
+}

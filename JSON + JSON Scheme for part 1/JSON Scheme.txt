@@ -1,0 +1,238 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "table": {
+      "type": "object",
+      "properties": {
+        "student": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "mark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "mark"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "mark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "mark"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "mark": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "discipline": {
+                          "type": "string"
+                        },
+                        "rating": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "discipline",
+                        "rating"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "name",
+                "mark"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "student"
+      ]
+    }
+  },
+  "required": [
+    "table"
+  ]
+}

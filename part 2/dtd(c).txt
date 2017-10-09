@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT attendance (frequent_ip, computing_platform, mobile_platform,ips )>
+
+<!ELEMENT frequent_ip (ip)>
+<!ELEMENT ip (#PCDATA)>
+<!ATTLIST ip addr CDATA #REQUIRED> 
+<!ATTLIST ip frequency CDATA #REQUIRED> 
+
+<!ELEMENT computing_platform (platform+)>
+<!ELEMENT platform (#PCDATA)>
+<!ATTLIST platform name CDATA #REQUIRED> 
+<!ATTLIST platform frequency CDATA #REQUIRED>
+
+<!ELEMENT mobile_platform (platform+)>
+<!ATTLIST platform name CDATA #REQUIRED>
+<!ATTLIST platform frequency CDATA #REQUIRED>
+
+<!ELEMENT ips (ip+)>
+<!ATTLIST ip addr CDATA #REQUIRED>
+<!ATTLIST ip frequency CDATA #REQUIRED>

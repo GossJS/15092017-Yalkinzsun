@@ -1,0 +1,29 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE attendance PUBLIC "Skorobogatov_Kirill" "http://kodaktor.ru/j/fd70786">
+
+<attendance>
+
+   <frequent_ip>
+      <ip addr = "077.234.203.101" frequency = "12"></ip>
+   <frequent_ip>
+
+   <computing_platform>
+      <platform name = "Windows" frequency = "81"></platform>
+      <platform name = "Linux" frequency = "13"></platform>
+      <platform name = "Mac" frequency = "6"></platform>
+   </computing_platform>
+
+   <mobile_platform>
+      <platform name = "IPhone" frequency  = "4"></platform>
+      <platform name = "X11" frequency  = "8"></platform>
+   </mobile_platform>
+
+   <ips>
+      <ip addr = "077.234.203.101" frequency = "12"></ip>
+      <ip addr = "005.144.096.251" frequency = "11"></ip>
+      <ip addr = "005.164.066.173" frequency = "4"></ip>
+      <ip addr = "091.122.189.004" frequency = "4"></ip>
+      <ip addr = "080.249.191.106" frequency = "3"></ip>
+   </ips>
+
+</attendance>
